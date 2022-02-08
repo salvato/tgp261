@@ -4,9 +4,7 @@ QT += serialport
 QT += widgets
 
 CONFIG += c++11
-message("Static build.")
-CONFIG += static
-DEFINES += STATIC
+
 DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
