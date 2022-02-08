@@ -44,4 +44,5 @@ RESOURCES += \
     resources.qrc
 
 DISTFILES += \
-    plot.png
+    plot.png \
+    tgp261.png
